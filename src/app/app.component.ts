@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.sass']
 })
 export class AppComponent {
-  title = 'assetapp';
+  title = 'Asset Manager';
+  assets = [
+    {name:'Dresser', activity:'CarryLoad'},
+    {name:'Solo', activity:'Driller'},
+    {name:'Scooptramp', activity:'Loader'},
+  ];
+  
 }
